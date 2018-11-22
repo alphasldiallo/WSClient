@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void start() {
         //After running your server, enter your local IP address
-        Request request = new Request.Builder().url("ws://192.168.43.106:8888/ws/").build();
+        Request request = new Request.Builder().url("ws://127.0.0.1:8888/ws/").build();
         EchoWebSocketListener listener = new EchoWebSocketListener();
         WebSocket ws = client.newWebSocket(request, listener);
     }
