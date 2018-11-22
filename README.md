@@ -4,5 +4,5 @@ This is a simple implementation of a Web socket client written in Java using **[
 
 ## Requirements
 It requires you to create/use a simple web server which allows socket connection. Please enter your server's IP in the appropriate area and make sure that the port is open
+## Web server
 Do not hesitate to use this demo web server written on Python using **Tornado**: [Web server repo]("https://github.com/alphasldiallo/SimpleWebServer")
-
